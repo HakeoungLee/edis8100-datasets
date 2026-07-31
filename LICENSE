@@ -1,0 +1,37 @@
+MIT License (applies to build_subsets.py and the documentation in this repository only)
+
+Copyright (c) 2026 Hakeoung Hannah Lee
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+-------------------------------------------------------------------------------
+THE DATA IN THIS REPOSITORY IS NOT COVERED BY THE LICENSE ABOVE.
+
+oulad-bbb/          Open University Learning Analytics Dataset (OULAD)
+                    CC BY 4.0  https://creativecommons.org/licenses/by/4.0/
+                    Kuzilek, J., Hlosta, M., & Zdrahal, Z. (2017). Open University
+                    Learning Analytics dataset. Scientific Data, 4, 170171.
+                    https://doi.org/10.1038/sdata.2017.171
+
+persuade-4prompts/  PERSUADE 2.0 corpus
+                    CC BY-NC-SA 4.0  https://creativecommons.org/licenses/by-nc-sa/4.0/
+                    NON-COMMERCIAL USE ONLY. Derivatives must carry the same license.
+                    Crossley, S. A., Baffour, P., Tian, Y., Franklin, A., Benner, M.,
+                    & Boser, U. (2024). A large-scale corpus for assessing written
+                    argumentation: PERSUADE 2.0. Assessing Writing, 61.
