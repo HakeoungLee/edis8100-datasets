@@ -35,3 +35,51 @@ persuade-4prompts/  PERSUADE 2.0 corpus
                     Crossley, S. A., Baffour, P., Tian, Y., Franklin, A., Benner, M.,
                     & Boser, U. (2024). A large-scale corpus for assessing written
                     argumentation: PERSUADE 2.0. Assessing Writing, 61.
+
+uci-student-performance/   UCI Student Performance (secondary schools, Portugal)
+                    CC BY 4.0  https://creativecommons.org/licenses/by/4.0/
+                    Cortez, P., & Silva, A. (2008). Using data mining to predict
+                    secondary school student performance. In A. Brito & J. Teixeira
+                    (Eds.), Proceedings of 5th Future Business Technology Conference
+                    (pp. 5-12). Donated to the UCI Machine Learning Repository, 2014.
+                    https://doi.org/10.24432/C5TG7T
+
+justhink/           JUSThink Dialogue and Actions Corpus, and the PE-HRI companions
+                    CC BY 4.0  https://creativecommons.org/licenses/by/4.0/
+                    Norman, U., Dinkar, T., Nasir, J., Bruno, B., Clavel, C., &
+                    Dillenbourg, P. (2021). JUSThink Dialogue and Actions Corpus
+                    (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.4627104
+                    Nasir, J., Norman, U., Bruno, B., Chetouani, M., & Dillenbourg, P.
+                    (2021). PE-HRI: A multimodal dataset for the study of productive
+                    engagement in a robot mediated collaborative educational setting.
+                    Zenodo. https://doi.org/10.5281/zenodo.4633092
+                    Nasir, J., Bruno, B., & Dillenbourg, P. (2024). PE-HRI-temporal.
+                    Zenodo. https://doi.org/10.5281/zenodo.13834073
+
+ednet-kt3-500/      EdNet KT3, a 500-user extract of the public mirror
+                    CC BY-NC 4.0  https://creativecommons.org/licenses/by-nc/4.0/
+                    NON-COMMERCIAL USE ONLY.
+                    Choi, Y., Lee, Y., Shin, D., Cho, J., Park, S., Lee, S., Baek, J.,
+                    Bae, C., Kim, B., & Heo, J. (2020). EdNet: A large-scale hierarchical
+                    dataset in education. In Artificial Intelligence in Education
+                    (pp. 69-73). Springer. Data released by Riiid AI Research.
+
+collab-chat/        Online collaborative learning in a computer networks course
+                    CC BY 4.0  https://creativecommons.org/licenses/by/4.0/
+                    Villa-Torrano, C. (2021). Dataset on an online collaborative
+                    learning situation in a computer networks course. Zenodo.
+                    https://doi.org/10.5281/zenodo.5150537
+
+fieldday-aqualab/   Open Game Data, AQUALAB
+fieldday-waves/     Open Game Data, WAVES
+                    CC0 1.0 Universal, public domain dedication.
+                    https://creativecommons.org/publicdomain/zero/1.0/
+                    Field Day Lab, University of Wisconsin-Madison.
+                    https://opengamedata.fielddaylab.wisc.edu
+
+canvas-network/     Canvas Network Person-Course, January 2014 to September 2015
+                    CC BY 4.0  https://creativecommons.org/licenses/by/4.0/
+                    Canvas Network (2016). Canvas Network person-course (1/2014 to
+                    9/2015) de-identified open dataset. Harvard Dataverse.
+                    https://doi.org/10.7910/DVN/1XORAL
+
