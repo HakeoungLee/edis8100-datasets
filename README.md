@@ -10,7 +10,7 @@ Nothing here is original data. Both datasets were collected, anonymized, and rel
 
 ## What is here
 
-### `oulad-bbb/` — Open University Learning Analytics Dataset, module BBB
+### `oulad-bbb/`: Open University Learning Analytics Dataset, module BBB
 
 | File | Rows | What it is |
 |---|---|---|
@@ -28,7 +28,7 @@ Nothing here is original data. Both datasets were collected, anonymized, and rel
 
 Demographic fields include `gender`, `region`, `highest_education`, `imd_band` (Index of Multiple Deprivation decile, a UK area-level measure of socioeconomic deprivation), `age_band`, and `disability`.
 
-### `persuade-4prompts/` — PERSUADE 2.0 corpus, four prompts
+### `persuade-4prompts/`: PERSUADE 2.0 corpus, four prompts
 
 | File | Rows | What it is |
 |---|---|---|
