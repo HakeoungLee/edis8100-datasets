@@ -90,6 +90,20 @@ Used in Week 10. The two games disagree about whether persistence pays, which is
 
 Used in Week 11, because a co-design session needs a dataset where the choice of measure visibly changes who looks successful. Take the top 500 learners by final grade and the top 500 by total events and the two lists share no one at all.
 
+### `edx-mooc-forum/`: a real MOOC discussion forum with reply threading
+
+One course run of a UC3Mx programming MOOC on edX, chosen because it is the size a seminar can reason about: 311 people posted, 181 of them appear in the reply graph, and 167 sit in one connected component.
+
+| File | Rows | What it is |
+|---|---|---|
+| `posts.csv` | 1,478 | One row per post: type (thread, response, comment), author, timestamp, the post it answers, category, forum role, country, body |
+| `reply_edges.csv` | 520 | One row per ordered pair: who replied to whom, and how often |
+| `people.csv` | 311 | One row per person: post counts by type, role, country, first and last post |
+
+Used in Week 8, where an edge means "A replied to B". The reply structure is native rather than inferred from timestamps: a response records the thread it answers and a comment records the response it answers.
+
+Two things to say out loud before analysing it. The source is edX's **tracking log**, filtered to forum events, so it records forum *acts* rather than the state of the forum database: later edits and deletions do not appear, and posts a moderator removed are still in the file. And 2 percent of posts carry an anonymous-to-peers flag while still carrying the author hash, which is a gap between what a learner believed was anonymous and what the log kept.
+
 ---
 
 ## Licenses and citation

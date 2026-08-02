@@ -83,3 +83,14 @@ canvas-network/     Canvas Network Person-Course, January 2014 to September 2015
                     9/2015) de-identified open dataset. Harvard Dataverse.
                     https://doi.org/10.7910/DVN/1XORAL
 
+edx-mooc-forum/     Dataset MOOC Forum edX, one course run (UC3Mx IT.1.2x, 2016T2)
+                    CC BY 4.0  https://creativecommons.org/licenses/by/4.0/
+                    Alario-Hoyos, C. (2021). Dataset MOOC Forum edX. Zenodo.
+                    https://doi.org/10.5281/zenodo.5115573
+                    Note: the source file is an edX tracking-log event stream
+                    filtered to forum activity, not a snapshot of the forum
+                    database. Posts are captured when created, so later edits
+                    and deletions are not reflected and moderator-deleted posts
+                    still appear.
+
+
