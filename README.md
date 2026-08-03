@@ -2,7 +2,7 @@
 
 Course-sized extracts of openly licensed learning analytics datasets, prepared for **EDIS 8100: Teaching and Learning Analytics** (University of Virginia, Fall 2026, Dr. Hakeoung Hannah Lee).
 
-Nothing here is original data. Every dataset here was collected, anonymized, and released by other researchers, and both are redistributed under the licenses their authors chose. This repository exists for one practical reason: the full releases run to hundreds of megabytes each, which is more than a seminar wants to download during class. What follows is a documented, reproducible extract of each, small enough to load in seconds and complete enough to do real work with.
+Nothing here is original data. Every dataset here was collected, anonymized, and released by other researchers, and each is redistributed under the license its own authors chose. They are not the same license; see the table below. This repository exists for one practical reason: the full releases run to hundreds of megabytes each, which is more than a seminar wants to download during class. What follows is a documented, reproducible extract of each, small enough to load in seconds and complete enough to do real work with.
 
 **If you are using these for research rather than for this course, go to the original sources and cite the original papers.** Links and citations are below.
 
@@ -56,7 +56,7 @@ Per-child speech and interface actions from the JUSThink study at EPFL, joined t
 | `per_participant.csv` | 78 | One row per child: speech seconds, turns, words, adds, removes, presses, pre-test, post-test, gain |
 | `participant_with_team_channels.csv` | 68 | The same children joined to their team's gaze, voice activity, and outcome measures |
 | `pehri_team_outcomes.csv` | 34 | Team learning gain and final task error |
-| `pehri_temporal.csv.gz` | 4,676 | The team channels again, in one-minute windows |
+| `pehri_temporal.csv.gz` | 4,676 | The team channels again, in 10-second windows |
 
 Used in Week 6. Two channels exist per child, speech and interface actions, and gaze exists only at the team level. Gesture and chat do not exist here, and neither does any demographic field: no age, no gender, no language background. That absence is part of what the week teaches.
 
@@ -128,11 +128,71 @@ Original: https://github.com/scrosseye/persuade_corpus_2.0
 
 The `student_disability_status` field means the student has an IEP or a 504 plan. No further information is available, and the corpus authors say so explicitly. Do not infer more than that from it.
 
+### UCI Student Performance: CC BY 4.0
+
+Attribution. Free to use, share, and adapt.
+
+> Cortez, P., & Silva, A. (2008). Using data mining to predict secondary school student performance. In A. Brito & J. Teixeira (Eds.), *Proceedings of the 5th FUture BUsiness TEchnology Conference (FUBUTEC 2008)* (pp. 5-12). EUROSIS.
+>
+> Cortez, P. (2008). *Student performance* [Data set]. UCI Machine Learning Repository. https://doi.org/10.24432/C5TG7T
+
+Original: https://archive.ics.uci.edu/dataset/320/student+performance (donated November 2014; the repository lists Paulo Cortez as the creator and gives the Cortez and Silva conference paper as the introductory reference)
+
+### JUSThink and PE-HRI: CC BY 4.0
+
+Two deposits from the CHILI lab at EPFL, both attribution only.
+
+> Norman, U., Dinkar, T., Nasir, J., Bruno, B., Clavel, C., & Dillenbourg, P. (2021). *JUSThink Dialogue and Actions Corpus* (v1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.4627104
+>
+> Nasir, J., Norman, U., Bruno, B., Chetouani, M., & Dillenbourg, P. (2021). *PE-HRI: A multimodal dataset for the study of productive engagement in a robot mediated collaborative educational setting* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.4633092
+>
+> Nasir, J., Bruno, B., & Dillenbourg, P. (2024). *PE-HRI-temporal: A multimodal temporal dataset in a robot mediated collaborative educational setting* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.13834073
+
+Three deposits, not two. `pehri_temporal.csv.gz` comes from the 2024 PE-HRI-temporal release, which has its own DOI and a shorter author list than the 2021 PE-HRI deposit. Cite all three if you use the temporal file; CC BY 4.0 asks for attribution to the deposit you actually used.
+
+### EdNet KT3: CC BY-NC 4.0
+
+Attribution, **non-commercial use only**. A university course is non-commercial use. A product is not.
+
+> Choi, Y., Lee, Y., Shin, D., Cho, J., Park, S., Lee, S., Baek, J., Bae, C., Kim, B., & Heo, J. (2020). EdNet: A large-scale hierarchical dataset in education. In *Artificial intelligence in education. AIED 2020* (Lecture Notes in Computer Science 12164, pp. 69-73). Springer. https://doi.org/10.1007/978-3-030-52240-7_13
+
+Original: https://github.com/riiid/ednet, which states the terms directly: "The dataset is publicly released under Creative Commons Attribution-NonCommercial 4.0 International license for research purposes."
+
+### edX MOOC forum (UC3Mx): CC BY 4.0
+
+Attribution is required wherever a result from this file is shown, including on a slide.
+
+> Alario-Hoyos, C. (2021). *Dataset MOOC Forum edX* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.5115573
+
+### Online collaborative learning chat logs: CC BY 4.0
+
+> Villa-Torrano, C. (2021). *Dataset on an online collaborative learning situation in a computer networks course* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.5150537
+
+The deposit holds six files. Only `chat_logs.csv` is extracted here; the document edit logs, Moodle logs, submissions, learning design and final questionnaire stay at the source.
+
+### Open Game Data, AQUALAB and WAVES: CC0 1.0
+
+Public domain. It asks nothing of you, not even attribution, which you should give anyway. The dedication is stated in Field Day's own dataset documentation, per game: "These anonymous data are provided in service of future educational data mining research. They are made available under the Creative Commons CC0 1.0 Universal license."
+
+The same documentation gives a suggested citation, which is the form to use even though nothing compels it:
+
+> Field Day. (2019). *Open educational game play logs: AQUALAB and WAVES* [Data set]. Field Day Lab, University of Wisconsin-Madison. Retrieved from https://opengamedata.fielddaylab.wisc.edu
+
+### Canvas Network Person-Course: CC BY 4.0
+
+> Canvas Network. (2016). *Canvas Network person-course (1/2014 - 9/2015) de-identified open dataset* [Data set]. Harvard Dataverse. https://doi.org/10.7910/DVN/1XORAL
+
+**A note on the citations above.** Every one of them has been checked against the source record itself rather than against another document in this course: the Zenodo API records for 4627104, 4633092, 13834073, 5150537 and 5115573; the Harvard Dataverse record for doi:10.7910/DVN/1XORAL; the UCI Machine Learning Repository page for dataset 320; Crossref for the OULAD, PERSUADE and EdNet papers; and Field Day's per-game dataset readme in `opengamedata/ogd-core`, which is where the CC0 dedication and the suggested citation are actually stated. Titles, author lists, years and licences match what the depositors recorded.
+
+One entry is still open, and it is the only one. The published PERSUADE 2.0 article deposits its author list at Crossref in the order **Crossley, Tian, Baffour, Franklin, Benner, Boser**, while the corpus author's own repository README and the 2023 preprint both give **Crossley, Baffour, Tian, ...**. This repository uses the second order. Open the article itself and settle it before citing it in work that leaves this course. Everything else in that entry (title, journal, volume 61, article 100865, DOI) is confirmed.
+
+Do the same check yourself before you reuse any of these. It is the habit this repository exists to teach, and it caught three errors here.
+
 ---
 
 ## Using these in a notebook
 
-Both files load straight from a raw URL with no authentication and no account.
+Every file here loads straight from a raw URL with no authentication and no account.
 
 ```python
 import pandas as pd
@@ -152,7 +212,7 @@ If you want the full releases rather than these extracts, `build_subsets.py` in 
 
 ## Reproducing the extracts
 
-`build_subsets.py` downloads both originals and regenerates everything here. It is the honest version of "we used a subset": anyone can check what was kept and what was left out.
+`build_subsets.py` currently covers **OULAD and PERSUADE only**: it downloads those two originals and regenerates their folders here. It is the honest version of "we used a subset" for those two, and anyone can check what was kept and what was left out. The other seven folders are documented above but are not yet regenerable from this script; each section above names the original release so the extract can be checked by hand in the meantime.
 
 ```bash
 python build_subsets.py --work-dir /tmp/oulad-persuade --out .

@@ -76,6 +76,15 @@ fieldday-waves/     Open Game Data, WAVES
                     https://creativecommons.org/publicdomain/zero/1.0/
                     Field Day Lab, University of Wisconsin-Madison.
                     https://opengamedata.fielddaylab.wisc.edu
+                    Field Day states the dedication per game in its own dataset
+                    readme: "These anonymous data are provided in service of
+                    future educational data mining research. They are made
+                    available under the Creative Commons CC0 1.0 Universal
+                    license." The citation it asks for, which CC0 does not
+                    require and which we give anyway:
+                    Field Day. (2019). Open Educational Game Play Logs -
+                    [dataset ID]. Retrieved [date] from
+                    https://opengamedata.fielddaylab.wisc.edu/
 
 canvas-network/     Canvas Network Person-Course, January 2014 to September 2015
                     CC BY 4.0  https://creativecommons.org/licenses/by/4.0/
