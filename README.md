@@ -212,7 +212,7 @@ If you want the full releases rather than these extracts, `build_subsets.py` in 
 
 ## Reproducing the extracts
 
-`build_subsets.py` currently covers **OULAD and PERSUADE only**: it downloads those two originals and regenerates their folders here. It is the honest version of "we used a subset" for those two, and anyone can check what was kept and what was left out. The other seven folders are documented above but are not yet regenerable from this script; each section above names the original release so the extract can be checked by hand in the meantime.
+`build_subsets.py` currently covers **OULAD and PERSUADE only**: it downloads those two originals and regenerates their folders here. It is the defensible version of "we used a subset" for those two, and anyone can check what was kept and what was left out. The other seven folders are documented above but are not yet regenerable from this script; each section above names the original release so the extract can be checked by hand in the meantime.
 
 ```bash
 python build_subsets.py --work-dir /tmp/oulad-persuade --out .
