@@ -45,7 +45,7 @@ Discourse types are `Lead`, `Position`, `Claim`, `Counterclaim`, `Rebuttal`, `Ev
 
 `student-mat.csv`, 395 rows by 33 columns, the mathematics cohort. One flat file, one row per student, an outcome (`G3`, final grade out of 20) and a dozen background columns beside it, with values written as words rather than codes. Semicolon delimited, so `pd.read_csv(path, sep=";")`.
 
-Used in Week 1 because it is the friendliest real table we could find and because it carries its own lesson: 38 students have a final grade of exactly 0, all 38 have zero recorded absences, and not one of the 280 students with any recorded absence scores 0. Those zeros are records that were never entered, not students who failed.
+Used in Week 1 because it is the friendliest real table we could find and because it carries its own lesson: 38 students have a final grade of exactly 0, all 38 have zero recorded absences, and not one of the 280 students with any recorded absence scores 0. Those zeros are more plausibly records that were never entered than grades of zero: all 38 have zero recorded absences and a first-period grade above zero. The file does not say which, so treat it as a hypothesis.
 
 ### `justhink/`: children collaborating with a robot
 
@@ -102,7 +102,7 @@ One course run of a UC3Mx programming MOOC on edX, chosen because it is the size
 
 Used in Week 8, where an edge means "A replied to B". The reply structure is native rather than inferred from timestamps: a response records the thread it answers and a comment records the response it answers.
 
-Two things to say out loud before analysing it. The source is edX's **tracking log**, filtered to forum events, so it records forum *acts* rather than the state of the forum database: later edits and deletions do not appear, and posts a moderator removed are still in the file. And 2 percent of posts carry an anonymous-to-peers flag while still carrying the author hash, which is a gap between what a learner believed was anonymous and what the log kept.
+Two things to say out loud before analyzing it. The source is edX's **tracking log**, filtered to forum events, so it records forum *acts* rather than the state of the forum database: later edits and deletions do not appear, and posts a moderator removed are still in the file. And 2 percent of posts carry an anonymous-to-peers flag while still carrying the author hash, which is a gap between what a learner believed was anonymous and what the log kept.
 
 ---
 
@@ -182,7 +182,7 @@ The same documentation gives a suggested citation, which is the form to use even
 
 > Canvas Network. (2016). *Canvas Network person-course (1/2014 - 9/2015) de-identified open dataset* [Data set]. Harvard Dataverse. https://doi.org/10.7910/DVN/1XORAL
 
-**A note on the citations above.** Every one of them has been checked against the source record itself rather than against another document in this course: the Zenodo API records for 4627104, 4633092, 13834073, 5150537 and 5115573; the Harvard Dataverse record for doi:10.7910/DVN/1XORAL; the UCI Machine Learning Repository page for dataset 320; Crossref for the OULAD, PERSUADE and EdNet papers; and Field Day's per-game dataset readme in `opengamedata/ogd-core`, which is where the CC0 dedication and the suggested citation are actually stated. Titles, author lists, years and licences match what the depositors recorded.
+**A note on the citations above.** Every one of them has been checked against the source record itself rather than against another document in this course: the Zenodo API records for 4627104, 4633092, 13834073, 5150537 and 5115573; the Harvard Dataverse record for doi:10.7910/DVN/1XORAL; the UCI Machine Learning Repository page for dataset 320; Crossref for the OULAD, PERSUADE and EdNet papers; and Field Day's per-game dataset readme in `opengamedata/ogd-core`, which is where the CC0 dedication and the suggested citation are actually stated. Titles, author lists, years and licenses match what the depositors recorded.
 
 One entry is still open, and it is the only one. The published PERSUADE 2.0 article deposits its author list at Crossref in the order **Crossley, Tian, Baffour, Franklin, Benner, Boser**, while the corpus author's own repository README and the 2023 preprint both give **Crossley, Baffour, Tian, ...**. This repository uses the second order. Open the article itself and settle it before citing it in work that leaves this course. Everything else in that entry (title, journal, volume 61, article 100865, DOI) is confirmed.
 
